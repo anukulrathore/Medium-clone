@@ -16,6 +16,7 @@ const App = () => {
         <Route path='/blog/:id' element={<Blog />}></Route>
         <Route path='/blogs' element={<Blogs />}></Route>
         <Route path='/publish' element={<Create />}></Route>
+        <Route path='/*' element={<Signup />}></Route>
       </Routes>
     </BrowserRouter>
     </>
